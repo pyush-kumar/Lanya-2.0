@@ -83,11 +83,6 @@ console.log(
   global.styles.successColor(`✅ Successfully loaded ${counter} handlers`)
 );
 
-// === Render IP logger start ===
-const https = require("https");
-https.get("https://api.ipify.org", (res) => {
-  res.on("data", (ip) => console.log("Render public IP:", ip.toString()));
-});
 // === Render IP logger end ===
 
 client.login(process.env.DISCORD_TOKEN);
