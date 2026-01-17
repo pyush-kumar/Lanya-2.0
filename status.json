@@ -2,8 +2,7 @@
   "interval": 30000,
   "status": {
     "type": "WATCHING",
-    "state": "LunarMart & Daz ART!",
-    "backup_state": "with {userCount} users",
+    "state": "with {userCount} users",
     "url": "https://twitch.tv/lanya"
   }
 }
